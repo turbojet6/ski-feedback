@@ -9,7 +9,6 @@ wheels/
 # Virtual environments
 .venv
 
-
 #Private Data and generated Files
 data/
 outputs/
