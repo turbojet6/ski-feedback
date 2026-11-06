@@ -1,0 +1,22 @@
+[project]
+name = "ski-feedback"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "turbojet6", email = "309966033+turbojet6@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "opencv-python>=5.0.0.93",
+    "pandas>=3.1.1",
+    "ultralytics>=8.4.203",
+]
+
+[project.scripts]
+ski-feedback = "ski_feedback:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
